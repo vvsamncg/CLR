@@ -1,0 +1,29 @@
+<customlist scriptid="customlist_ng_approval_status">
+  <description>List of approval status.</description>
+  <isinactive>F</isinactive>
+  <ismatrixoption>F</ismatrixoption>
+  <isordered>T</isordered>
+  <name>NG Approval Status</name>
+  <customvalues>
+    <customvalue scriptid="val_408231_t2464701_103">
+      <abbreviation>P</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Pending</value>
+    </customvalue>
+    <customvalue scriptid="val_408232_t2464701_138">
+      <abbreviation>C</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Approved</value>
+    </customvalue>
+    <customvalue scriptid="val_408233_t2464701_114">
+      <abbreviation>F</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Rejected</value>
+    </customvalue>
+    <customvalue scriptid="val_408234_t2464701_810">
+      <abbreviation>S</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Skipped</value>
+    </customvalue>
+  </customvalues>
+</customlist>
