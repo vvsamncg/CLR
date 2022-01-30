@@ -1,0 +1,25 @@
+<centercategory scriptid="custcentercategory_ng_approval_manager">
+  <center>BASIC</center>
+  <centertab>BASICCENTERSETUP</centertab>
+  <label>Approval Manager</label>
+  <links>
+    <link>
+      <linklabel>Setting</linklabel>
+      <linkobject>[scriptid=customrecord_ng_approval_setting]</linkobject>
+      <linktasktype>LIST</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+    <link>
+      <linklabel>Level</linklabel>
+      <linkobject>[scriptid=customrecord_ng_approval_level]</linkobject>
+      <linktasktype>LIST</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+    <link>
+      <linklabel>Rules</linklabel>
+      <linkobject>[scriptid=customrecord_ng_approval_rules]</linkobject>
+      <linktasktype>LIST</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+  </links>
+</centercategory>

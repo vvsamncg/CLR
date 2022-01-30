@@ -1,0 +1,25 @@
+<suitelet scriptid="customscript_ng_approval_process">
+  <description>Process approval action.</description>
+  <isinactive>F</isinactive>
+  <name>NG Process Approval</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/nuagecg/components/nuage-approval-sl-process.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_ng_approval_process">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>F</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>NG Process Approval</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

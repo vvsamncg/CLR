@@ -1,0 +1,17 @@
+<manifest projecttype="ACCOUNTCUSTOMIZATION">
+  <projectname>CLR Approval Process</projectname>
+  <frameworkversion>1.0</frameworkversion>
+  <dependencies>
+    <features>
+      <feature required="false">CRM</feature>
+      <feature required="false">INVENTORY</feature>
+      <feature required="false">EXTREMELIST</feature>
+      <feature required="false">CUSTOMTRANSACTIONS</feature>
+      <feature required="false">MAILMERGE</feature>
+      <feature required="true">CUSTOMRECORDS</feature>
+      <feature required="false">PAYABLES</feature>
+      <feature required="true">SERVERSIDESCRIPTING</feature>
+      <feature required="false">CREATESUITEBUNDLES</feature>
+    </features>
+  </dependencies>
+</manifest>
